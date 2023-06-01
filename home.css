@@ -1,0 +1,50 @@
+.links{
+    float: right;
+    text-decoration: none;
+}
+
+.active{
+    color: #000;
+    text-decoration: none;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.active:hover{
+    text-decoration: underline;
+}
+
+
+nav{
+    display: block;
+}
+
+header{
+    font-size: 2rem;
+    position: fixed;
+     left: 0;
+    right: 0;
+    padding: 0.5em 1em;
+    box-shadow: 0 2px 4px -2px black;
+    background-color: rgb(197, 197, 175) ;
+    display: block;
+}
+
+img{
+    padding-top: 100px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.name{
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(197, 197, 175);
+}
