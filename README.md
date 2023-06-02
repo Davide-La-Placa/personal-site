@@ -1,2 +1,2 @@
 # personal-site
-# I'm crating my brilliant personal website.
+# I'm creating my brilliant personal website.
