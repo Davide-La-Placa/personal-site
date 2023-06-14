@@ -1,17 +1,21 @@
+
 .links {
-  float: right;
+  text-align: right;
   text-decoration: none;
+  font-size: smaller;
 }
 
 .active {
-  color: #000;
+  color: aqua;
   text-decoration: none;
   margin: 5px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: ink free;
 }
+
 
 .active:hover {
   text-decoration: underline;
+  background-color: rgb(178, 28, 178);
 }
 
 nav {
@@ -20,31 +24,34 @@ nav {
 
 header {
   font-size: 2rem;
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   left: 0;
   right: 0;
   padding: 0.5em 1em;
-  box-shadow: 0 2px 4px -2px black;
-  background-color: rgb(149, 92, 54);
-  display: block;
+  /* box-shadow: 0 2px 4px -2px black; */
+  /* background-color: rgb(149, 92, 54); */
+  /* display: block; */
 }
 
-img {
-  padding-top: 100px;
+.image {
+  text-align: center;
 }
 
-.container {
-  display: flex;
-  align-items: center;
+.testimonial-grid {
+  display: grid;
 }
 
 .name {
+  color: aqua;
   font-size: 50px;
   text-align: center;
-  font-family: garamond;
+  font-family: Didot, serif;
+  background-color: rgb(178, 28, 178);
+  padding: 10px;
 }
 
-body {
+
+/* body {
   background-color: rgb(190, 118, 70);
-}
+} */
