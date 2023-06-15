@@ -70,9 +70,10 @@ p {
   grid-template-columns: repeat(3, 1fr);
 }
 
-@media (max-width: 600px) {
+@media(max-width: 600px) {
   .testimonial-grid {
     display: contents;
+
   }
 }
 
