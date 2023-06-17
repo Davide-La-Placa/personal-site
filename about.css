@@ -1,68 +1,98 @@
 .links {
-  float: right;
+  font-size: smaller;
+ text-align: right;
   text-decoration: none;
+
 }
 
 .active {
   color: hsl(0, 15%, 91%);
   text-decoration: none;
   margin: 5px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: ink free;
 }
 
 .active:hover {
   text-decoration: underline;
-}
-
-nav {
-  display: block;
+  background-color: rgb(178, 28, 178);
 }
 
 header {
   font-size: 2rem;
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   left: 0;
   right: 0;
-  padding: 0.5em 1em;
-  box-shadow: 0 2px 4px -2px rgb(244, 239, 239);
-  background-color: black;
+  padding: 2rem;
+  /* box-shadow: 0 2px 4px -2px rgb(244, 239, 239); */
+  /* background-color: black; */
 }
 
-body {
-  background-color: black;
-}
 
 .passions {
   color: aqua;
   font-family: ink free;
   text-align: center;
-  padding-top: 80px;
+  padding-top: 4rem;
+  font-size: 2.5rem;
 }
 
-.section {
-  border-top: 1px solid #bbb;
+h1 {
+  background-color: rgb(178, 28, 178);
+  display: inline;
+  padding: 5px;
 }
+
+h4 {
+  background-color: rgb(178, 28, 178);
+  display: inline;
+  padding: 5px;
+}
+
 
 p {
   color: aqua;
   font-family: ink free;
   text-align: center;
   font-size: 20px;
+  background-color: rgb(178, 28, 178);
+  padding: 1rem;
 }
 
-.container {
+/* .container-flex {
   display: flex;
   align-items: center;
-}
-main {
-  display: block;
-  min-height: 100vh;
-  padding: 64px 24px 96px;
-  box-shadow: 0 0 20px -10px rgb(247, 242, 242);
-  box-sizing: border-box;
+} */
+
+.testimonial-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
 }
 
-.image {
-  margin-right: 20px;
+@media(max-width: 600px) {
+  .testimonial-grid {
+    display: contents;
+
+  }
 }
+
+.grid-col-span-2 {
+  grid-column: span 2;
+  /* border: 2px solid white; */
+}
+
+.grid-col-span-3 {
+  grid-column: span 3;
+}
+
+/* .border {
+  border: 2px solid white;
+} */
+
+.image {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
